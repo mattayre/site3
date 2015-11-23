@@ -1,0 +1,61 @@
+/* my overides for bootstrap */
+
+.lionimage{
+  background-image:url(../img/lion2.jpg);
+  background-repeat:repeat;
+  background-attachment:fixed;
+  -webkit-background-size: cover;
+  background-position:center center;
+  overflow:hidden
+}
+.timeline>li .timeline-image:hover {
+    -webkit-transition: all 1s;
+    opacity:0.3;
+}
+.text-primary  {
+ 	color:#fed136;
+ }
+ .fa-inverse {
+  color: black;
+}
+
+.fa-stack:hover{
+	opacity: .1;
+  -webkit-transition: all 1s;
+}
+.text-primary:hover  {
+ 	opacity: .1;
+  -webkit-transition: all 1s;
+
+ }
+ .fa-inverse:hover {
+  	
+}
+@media(max-width:768px) {
+	section h2.section-heading { 
+    font-size: 30px;
+	}
+	.timeline .timeline-heading h4.subheading {
+    font-size: 15px;
+	}
+	.fa-stack{
+		font-size: 30px;
+	}
+    .text-primary  {
+ 	  font-size: 60px;
+ 	}
+ 	.fa-inverse {
+  	font-size: 30px;
+  }
+  header {
+  	height: 450px;
+  	width: auto;
+  }
+  section h2.section-heading {
+    font-size: 21px;
+  }
+  .lionimage{
+    background-attachment:scroll;
+  }
+}
+
